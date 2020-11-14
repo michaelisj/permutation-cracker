@@ -74,6 +74,6 @@ if __name__ == '__main__':
     parser.add_argument("input_file", type=str)
     parser.add_argument("output_file", type=str)
     parser.add_argument(
-        "dict", help="Type most probable to get most probable letters attachment")
+        "dict", help="Type most-probable to get most probable letters attachment")
     args = parser.parse_args()
     main()
