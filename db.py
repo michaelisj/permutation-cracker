@@ -1,7 +1,7 @@
 import pickle
 
-WORDS_DB = open("db.bin", 'rb').read()
-WORDS_DB = pickle.loads(WORDS_DB)
+# WORDS_DB = open("db.bin", 'rb').read()
+# WORDS_DB = pickle.loads(WORDS_DB)
 
 FREQUENCY = [0.0466,
              0.0536,
